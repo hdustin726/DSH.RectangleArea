@@ -10,7 +10,7 @@ using namespace std;
 int GetLengthFromUser();
 int GetWidthFromUser();
 int CalculateArea(int length, int width);
-int DisplayArea(int area);
+void DisplayArea(int area);
 
 int main()
 {
@@ -60,8 +60,7 @@ int CalculateArea(int length, int width)
     return area;
 }
 
-int DisplayArea(int area)
+void DisplayArea(int area)
 {
     cout << "Rectangle area: " << area;
-    return area;
 }
